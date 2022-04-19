@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #EA5050;
+}
+.linkparainformacoes{
+    text-decoration: none;
+}
+
+.divcard{
+    display: flex;
+    flex-direction: column;
+    background-color: #333232;
+    width: 350px;
+    height: 830px;
+    margin-right: 100px;
+    padding: 8px;
+    transition: all 1s; 
+    margin-top: 100px;
+    padding-top: 15px;
+    border-radius: 10px;
+   
+}
+.divcard:hover{ 
+    box-shadow: black 0px 0px 10px 1px;
+    transition: box-shadow 0.6s;
+    transform: scale(1.1);
+}
+
+/* efeito sanfona em cards */
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+   margin-left: 100px;
+}
+
+.card-produtora{
+    text-align: center;
+    color: #EA5050;
+    font-weight: bolder;
+    font-size: 22px;
+    font-family: 'Playfair Display SC', serif;
+}
+img{
+    height: 97%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.card-nome{
+    margin-top: 8px;
+    color: #EA5050;
+    font-weight: bolder;
+    font-size: 21px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#caixadepesquisa{
+    height: 35px;
+    width: 390px;
+    margin-top: 4%;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#pesquisar{
+    height: 35px;
+    width: 101px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 4%;
+    margin-left: 30px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card-detalhes{
+    text-align: center;
+    color: #BEB5B5;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.divpesquisa{
+   justify-content: center;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+}
+
+
+
+
